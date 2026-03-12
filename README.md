@@ -7,7 +7,7 @@
 ## 📸 画面イメージ (Screenshots)
 | ログイン画面 | メインメニュー |
 | :---: | :---: |
-| ![Login](https://github.com/user-attachments/assets/34e430c5-946c-43b3-9266-4863180d7df) | ![Menu](https://github.com/user-attachments/assets/446cae76-f6ef-4130-a8fb-fc930df71e0c) |
+| ![Login](https://github.com/user-attachments/assets/7edb22c9-c452-45e2-990f-cba7b8309cf3) | ![Menu](https://github.com/user-attachments/assets/446cae76-f6ef-4130-a8fb-fc930df71e0c) |
 
 | 学生一覧 | 学生登録・編集 |
 | :---: | :---: |
