@@ -1,0 +1,35 @@
+-- 既存のテーブルがあれば削除 (အဟောင်းရှိရင် ဖျက်ရန်)
+DROP TABLE IF EXISTS STUDENT;
+DROP TABLE IF EXISTS TEACHER;
+DROP TABLE IF EXISTS COURSE;
+
+-- 1. 学生テーブルの作成 (ကျောင်းသားဇယား)
+CREATE TABLE STUDENT(
+    STUDENTID INT NOT NULL PRIMARY KEY,
+    STUDENTNAME VARCHAR(255),
+    COURSE VARCHAR(255)
+);  
+
+INSERT INTO STUDENT VALUES (1, '大原 次郎', 'システム開発');
+INSERT INTO STUDENT VALUES (2, '大原 三郎', 'システム開発');
+INSERT INTO STUDENT VALUES (3, '情報 直也', '情報ビジネス');
+
+-- 2. 教師テーブルの作成 (ဆရာဇယား)
+CREATE TABLE TEACHER(
+    USERID INT NOT NULL PRIMARY KEY,
+    USERNAME VARCHAR(255),
+    MAILADDRESS VARCHAR(255)
+);
+
+INSERT INTO TEACHER VALUES (1, '大原 太郎', 'T.Ohara@mail.jp');
+INSERT INTO TEACHER VALUES (2, '大原 花子', 'H.Ohara@mail.jp');
+INSERT INTO TEACHER VALUES (3, '情報 翔平', 'S.Joho@mail.jp');
+
+-- 3. コーステーブルの作成 (သင်တန်းဇယား - လိုအပ်ပါက)
+CREATE TABLE COURSE(
+    COURSEID INT NOT NULL PRIMARY KEY,
+    COURSENAME VARCHAR(255)
+);
+
+INSERT INTO COURSE VALUES (1, 'システム開発');
+INSERT INTO COURSE VALUES (2, '情報ビジネス');
